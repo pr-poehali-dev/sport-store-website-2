@@ -74,8 +74,12 @@ export default function Index() {
             </div>
             
             <div className="relative animate-scale-in">
-              <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl flex items-center justify-center">
-                <Icon name="Trophy" size={200} className="text-primary opacity-30" />
+              <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                <img 
+                  src="https://cdn.poehali.dev/files/b8ed80ad-e330-4a5b-95df-8ccaa220c52e.jpg" 
+                  alt="Спортивное питание и добавки"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -138,6 +142,30 @@ export default function Index() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          <div className="mt-16 grid md:grid-cols-3 gap-6">
+            <div className="rounded-2xl overflow-hidden shadow-lg animate-scale-in">
+              <img 
+                src="https://cdn.poehali.dev/files/6f27c43a-2980-493b-83fb-fe72acf4013c.jpg" 
+                alt="Спортивная экипировка"
+                className="w-full h-64 object-cover"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg animate-scale-in">
+              <img 
+                src="https://cdn.poehali.dev/files/1523e770-d4db-4ed6-99ba-c4f290041e3b.jpg" 
+                alt="Боксерская форма"
+                className="w-full h-64 object-cover"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg animate-scale-in">
+              <img 
+                src="https://cdn.poehali.dev/files/230f418c-4bd1-4d53-9952-6492f35a877b.jpg" 
+                alt="Награды и кубки"
+                className="w-full h-64 object-cover"
+              />
+            </div>
           </div>
 
           <div className="mt-16 bg-gradient-to-r from-primary to-secondary rounded-3xl p-12 text-white text-center animate-fade-in">
